@@ -59,7 +59,7 @@ np.ones(3)
 5 * np.ones(10)
 # %%
 #for sequence of numbers (1,6)-> [1,2,3,4,5]
-np.arange(1,6)
+np.arange(2,6)
 # %%
 #NORMS:
 #L1
@@ -76,8 +76,9 @@ a = np.array([[1,2],[3,4],[5,6]])
 print(a.shape)
 print(a.ndim)
 # %%
-b = np.array([[1,2,3],[4,5,6]])
+b = np.array([[[1,0,0],[0,1,0],[0,0,1]],[[1,2,3],[4,5,6],[7,8,9]]])
 print(b.shape)
 print(b.ndim)
+#ndim tells what's the dimension of the matrix formed, i.e it is a 1D vector or 2D matrix or 3D matrix or a 4D tesseract or a 0D scaler
 
 # %%
